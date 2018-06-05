@@ -1,4 +1,4 @@
-package personal.nathan.echoserver;
+package personal.nathan.echoclient;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
