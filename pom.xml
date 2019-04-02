@@ -11,6 +11,7 @@
     <modules>
         <module>NettyServer</module>
         <module>NettyClient</module>
+        <module>NioBaseStudy</module>
     </modules>
 
     <properties>
