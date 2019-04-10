@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NettyClient/NettyClient.iml" filepath="$PROJECT_DIR$/NettyClient/NettyClient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NettyClient/NettyClient.iml" filepath="$PROJECT_DIR$/NettyClient/NettyClient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NettyServer/NettyServer.iml" filepath="$PROJECT_DIR$/NettyServer/NettyServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyServer/NettyServer.iml" filepath="$PROJECT_DIR$/NettyServer/NettyServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/NioBaseStudy/NioBaseStudy.iml" filepath="$PROJECT_DIR$/NioBaseStudy/NioBaseStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty.iml" filepath="$PROJECT_DIR$/netty.iml" />
