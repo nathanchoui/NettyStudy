@@ -10,7 +10,6 @@ public class InetAddressStudy {
 
     public static void main(String[] args) {
         try {
-
             InetAddress inetAddress = InetAddress.getByName("www.baidu.com");
             System.out.println(inetAddress);
         } catch (UnknownHostException e) {
