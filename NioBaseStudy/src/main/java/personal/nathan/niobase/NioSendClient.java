@@ -6,6 +6,7 @@ import personal.nathan.util.NioDemoConfig;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
@@ -39,6 +40,8 @@ public class NioSendClient {
      * @throws Exception
      */
     public void sendFile() {
+        FileChannel fileChannel = null;
+        SocketChannel socketChannel = null;
         try {
 
 
@@ -54,9 +57,9 @@ public class NioSendClient {
                 System.out.println("文件不存在");
                 return;
             }
-            FileChannel fileChannel = new FileInputStream(file).getChannel();
+            fileChannel = new FileInputStream(file).getChannel();
 
-            SocketChannel socketChannel = SocketChannel.open();
+            socketChannel = SocketChannel.open();
             socketChannel.socket().connect(
                     new InetSocketAddress(NioDemoConfig.SOCKET_SERVER_IP
                             , NioDemoConfig.SOCKET_SERVER_PORT));
@@ -100,10 +103,14 @@ public class NioSendClient {
             }
             System.out.println("======== 文件传输成功 ========");
         } catch (Exception e) {
+            try {
+                fileChannel.close();
+                socketChannel.close();
+            } catch (IOException ioe) {
+                ioe.printStackTrace();
+            }
             e.printStackTrace();
         }
-
-
     }
 
     /**
