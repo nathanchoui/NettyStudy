@@ -11,7 +11,10 @@ public class InetAddressStudy {
     public static void main(String[] args) {
         try {
             InetAddress inetAddress = InetAddress.getByName("www.baidu.com");
-            System.out.println(inetAddress);
+            System.out.println("address: "+ inetAddress.getAddress());
+            System.out.println("canionicalHostName: " + inetAddress.getCanonicalHostName());
+            System.out.println("hostAddress: " + inetAddress.getHostAddress());
+            System.out.println("hostName: " + inetAddress.getHostName());
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
