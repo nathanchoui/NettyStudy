@@ -60,6 +60,7 @@ public class NioSendClient {
             fileChannel = new FileInputStream(file).getChannel();
 
             socketChannel = SocketChannel.open();
+            socketChannel.configureBlocking(false);
             socketChannel.socket().connect(
                     new InetSocketAddress(NioDemoConfig.SOCKET_SERVER_IP
                             , NioDemoConfig.SOCKET_SERVER_PORT));
