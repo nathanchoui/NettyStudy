@@ -1,6 +1,6 @@
 package com.crazymakercircle.netty.bytebuf;
 
-import com.crazymakercircle.util.Logger;
+import com.crazymakercircle.netty.util.Logger;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;
 import org.junit.Test;

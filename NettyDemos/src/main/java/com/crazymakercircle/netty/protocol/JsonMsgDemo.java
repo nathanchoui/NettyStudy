@@ -1,6 +1,6 @@
 package com.crazymakercircle.netty.protocol;
 
-import com.crazymakercircle.util.Logger;
+import com.crazymakercircle.netty.util.Logger;
 import org.junit.Test;
 
 import java.io.IOException;

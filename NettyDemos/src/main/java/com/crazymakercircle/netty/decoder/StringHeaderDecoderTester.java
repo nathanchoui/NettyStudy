@@ -1,6 +1,6 @@
 package com.crazymakercircle.netty.decoder;
 
-import com.crazymakercircle.util.RandomUtil;
+import com.crazymakercircle.netty.util.RandomUtil;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelInitializer;

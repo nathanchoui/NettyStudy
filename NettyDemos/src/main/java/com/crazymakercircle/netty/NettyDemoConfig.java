@@ -1,6 +1,7 @@
 package com.crazymakercircle.netty;
 
-import com.crazymakercircle.util.ConfigProperties;
+
+import com.crazymakercircle.netty.util.ConfigProperties;
 
 public class NettyDemoConfig extends ConfigProperties
 {

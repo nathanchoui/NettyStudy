@@ -4,7 +4,7 @@ package com.crazymakercircle.netty.decoder;
  * create by 尼恩 @ 疯狂创客圈
  **/
 
-import com.crazymakercircle.util.Logger;
+import com.crazymakercircle.netty.util.Logger;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ReplayingDecoder;

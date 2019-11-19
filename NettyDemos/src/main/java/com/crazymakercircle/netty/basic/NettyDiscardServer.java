@@ -5,7 +5,7 @@ package com.crazymakercircle.netty.basic;
  **/
 
 import com.crazymakercircle.netty.NettyDemoConfig;
-import com.crazymakercircle.util.Logger;
+import com.crazymakercircle.netty.util.Logger;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;
 import io.netty.channel.ChannelFuture;

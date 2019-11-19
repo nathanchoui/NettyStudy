@@ -1,6 +1,6 @@
 package com.crazymakercircle.netty.protocol;
 
-import com.crazymakercircle.util.JsonUtil;
+import com.crazymakercircle.netty.util.JsonUtil;
 import lombok.Data;
 
 /**

@@ -15,13 +15,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="chatroom-client" target="1.5" />
-      <module name="chatroom-server" target="1.5" />
-      <module name="netty" target="1.7" />
-      <module name="NettyClient" target="1.7" />
-      <module name="NettyDemos" target="1.7" />
-      <module name="NettyServer" target="1.7" />
-      <module name="NioBaseStudy" target="1.7" />
+      <module name="chatroom-client" target="8" />
+      <module name="chatroom-server" target="8" />
+      <module name="netty" target="8" />
+      <module name="NettyClient" target="8" />
+      <module name="NettyDemos" target="8" />
+      <module name="NettyServer" target="8" />
+      <module name="NioBaseStudy" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

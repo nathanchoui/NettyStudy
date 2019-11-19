@@ -1,9 +1,9 @@
 package com.crazymakercircle.netty.echoServer;
 
 import com.crazymakercircle.netty.NettyDemoConfig;
-import com.crazymakercircle.util.Dateutil;
-import com.crazymakercircle.util.Logger;
-import com.crazymakercircle.util.Print;
+import com.crazymakercircle.netty.util.Dateutil;
+import com.crazymakercircle.netty.util.Logger;
+import com.crazymakercircle.netty.util.Print;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.PooledByteBufAllocator;
