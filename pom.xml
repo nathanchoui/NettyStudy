@@ -12,11 +12,12 @@
         <module>NettyServer</module>
         <module>NettyClient</module>
         <module>NioBaseStudy</module>
+        <module>NettyDemos</module>
     </modules>
 
     <properties>
         <junit.version>4.11</junit.version>
-        <netty.version>4.1.33.Final</netty.version>
+        <netty.version>4.1.43.Final</netty.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

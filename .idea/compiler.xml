@@ -9,6 +9,7 @@
         <module name="chatroom-client" />
         <module name="chatroom-server" />
         <module name="NettyClient" />
+        <module name="NettyDemos" />
         <module name="NettyServer" />
         <module name="NioBaseStudy" />
       </profile>
@@ -18,6 +19,7 @@
       <module name="chatroom-server" target="1.5" />
       <module name="netty" target="1.7" />
       <module name="NettyClient" target="1.7" />
+      <module name="NettyDemos" target="1.7" />
       <module name="NettyServer" target="1.7" />
       <module name="NioBaseStudy" target="1.7" />
     </bytecodeTargetLevel>
