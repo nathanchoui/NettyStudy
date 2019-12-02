@@ -6,8 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/NettyDemos/NettyDemos.iml" filepath="$PROJECT_DIR$/NettyDemos/NettyDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/NettyServer/NettyServer.iml" filepath="$PROJECT_DIR$/NettyServer/NettyServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/NioBaseStudy/NioBaseStudy.iml" filepath="$PROJECT_DIR$/NioBaseStudy/NioBaseStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NioChatroom/chatroom-client/chatroom-client.iml" filepath="$PROJECT_DIR$/NioChatroom/chatroom-client/chatroom-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NioChatroom/chatroom-server/chatroom-server.iml" filepath="$PROJECT_DIR$/NioChatroom/chatroom-server/chatroom-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instance-messager/chat-client/chat-client.iml" filepath="$PROJECT_DIR$/instance-messager/chat-client/chat-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instance-messager/chat-common/chat-common.iml" filepath="$PROJECT_DIR$/instance-messager/chat-common/chat-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instance-messager/chat-server/chat-server.iml" filepath="$PROJECT_DIR$/instance-messager/chat-server/chat-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instance-messager/instance-messager.iml" filepath="$PROJECT_DIR$/instance-messager/instance-messager.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty.iml" filepath="$PROJECT_DIR$/netty.iml" />
     </modules>
   </component>

@@ -54,9 +54,9 @@ public class ProtoBufServer {
             // 6 开始绑定server
             // 通过调用sync同步方法阻塞直到绑定成功
             ChannelFuture channelFuture = b.bind().sync();
+
             Logger.info(" 服务器启动成功，监听端口: " +
                     channelFuture.channel().localAddress());
-
             // 7 等待通道关闭的异步任务结束
             // 服务监听通道会一直等待通道关闭的异步任务结束
             ChannelFuture closeFuture = channelFuture.channel().closeFuture();

@@ -4,8 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/NioChatroom/chatroom-server/pom.xml" />
-        <option value="$PROJECT_DIR$/NioChatroom/chatroom-client/pom.xml" />
+        <option value="$PROJECT_DIR$/instance-messager/pom.xml" />
       </list>
     </option>
   </component>
