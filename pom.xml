@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>personal.nathan</groupId>
-    <artifactId>NettyStudy</artifactId>
+    <artifactId>netty-study</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>NettyServer</module>
-        <module>NettyClient</module>
-        <module>NioBaseStudy</module>
-        <module>NettyDemos</module>
+        <module>netty-client</module>
+        <module>netty-server</module>
+        <module>nio-study</module>
+        <module>netty-demos</module>
     </modules>
 
     <properties>
