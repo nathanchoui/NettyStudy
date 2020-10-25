@@ -3,14 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/netty-client/NettyClient.iml" filepath="$PROJECT_DIR$/netty-client/NettyClient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/netty-demos/NettyDemos.iml" filepath="$PROJECT_DIR$/netty-demos/NettyDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-server/NettyServer.iml" filepath="$PROJECT_DIR$/netty-server/NettyServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio-study/NioBaseStudy.iml" filepath="$PROJECT_DIR$/nio-study/NioBaseStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/instance-messager/chat-client/chat-client.iml" filepath="$PROJECT_DIR$/instance-messager/chat-client/chat-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/instance-messager/chat-common/chat-common.iml" filepath="$PROJECT_DIR$/instance-messager/chat-common/chat-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/instance-messager/chat-server/chat-server.iml" filepath="$PROJECT_DIR$/instance-messager/chat-server/chat-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/instance-messager/instance-messager.iml" filepath="$PROJECT_DIR$/instance-messager/instance-messager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-client/netty-client.iml" filepath="$PROJECT_DIR$/netty-client/netty-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-server/netty-server.iml" filepath="$PROJECT_DIR$/netty-server/netty-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-study.iml" filepath="$PROJECT_DIR$/netty-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nio-study/nio-study.iml" filepath="$PROJECT_DIR$/nio-study/nio-study.iml" />
     </modules>
   </component>
 </project>
