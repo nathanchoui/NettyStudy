@@ -7,14 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="NioBaseStudy" />
-        <module name="chat-client" />
+        <module name="chat-common" />
         <module name="NettyClient" />
         <module name="netty-server" />
+        <module name="netty-demo" />
         <module name="netty-client" />
+        <module name="chat-client" />
         <module name="chat-server" />
-        <module name="NettyServer" />
         <module name="nio-study" />
-        <module name="chat-common" />
+        <module name="NettyServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -25,6 +26,7 @@
       <module name="chatroom-server" target="8" />
       <module name="instance-messager" target="1.8" />
       <module name="netty-client" target="1.7" />
+      <module name="netty-demo" target="1.7" />
       <module name="netty-server" target="1.7" />
       <module name="netty-study" target="1.7" />
       <module name="NettyClient" target="1.7" />

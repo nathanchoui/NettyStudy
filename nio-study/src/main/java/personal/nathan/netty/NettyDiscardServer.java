@@ -6,10 +6,7 @@ package personal.nathan.netty;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelInitializer;
-import io.netty.channel.ChannelOption;
-import io.netty.channel.EventLoopGroup;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
@@ -52,6 +49,12 @@ public class NettyDiscardServer {
             // 6 开始绑定server
             // 通过调用sync同步方法阻塞直到绑定成功
             ChannelFuture channelFuture = b.bind().sync();
+            channelFuture.addListener(new ChannelFutureListener() {
+                @Override
+                public void operationComplete(ChannelFuture future) throws Exception {
+                    Logger.info("===>Successfully<===");
+                }
+            });
             Logger.info(" 服务器启动成功，监听端口: " +
                     channelFuture.channel().localAddress());
 

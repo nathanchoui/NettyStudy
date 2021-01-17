@@ -65,7 +65,7 @@ public class NioSendClient {
                     new InetSocketAddress(NioDemoConfig.SOCKET_SERVER_IP
                             , NioDemoConfig.SOCKET_SERVER_PORT));
             socketChannel.configureBlocking(false);
-            System.out.println("Cliect 成功连接服务端");
+            System.out.println("Client 成功连接服务端");
 
             while (!socketChannel.finishConnect()) {
                 //不断的自旋、等待，或者做一些其他的事情

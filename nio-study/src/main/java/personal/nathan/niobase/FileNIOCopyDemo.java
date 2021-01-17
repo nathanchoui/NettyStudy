@@ -23,23 +23,23 @@ public class FileNIOCopyDemo {
      */
     public static void main(String[] args) {
         //演示复制资源文件
-        nioCopyResouceFile();
+        nioCopyResourceFile();
 
     }
 
     /**
      * 复制两个资源目录下的文件
      */
-    public static void nioCopyResouceFile() {
+    public static void nioCopyResourceFile() {
         String sourcePath = NioDemoConfig.FILE_RESOURCE_SRC_PATH;
         String srcPath = IOUtil.getResourcePath(sourcePath);
         System.out.println("srcPath=" + srcPath);
 
         String destShortPath = NioDemoConfig.FILE_RESOURCE_DEST_PATH;
-        String destdePath = IOUtil.builderResourcePath(destShortPath);
-        System.out.println("destdePath=" + destdePath);
+        String destPath = IOUtil.builderResourcePath(destShortPath);
+        System.out.println("destPath=" + destPath);
 
-        nioCopyFile(srcPath, destdePath);
+        nioCopyFile(srcPath, destPath);
     }
 
     /**

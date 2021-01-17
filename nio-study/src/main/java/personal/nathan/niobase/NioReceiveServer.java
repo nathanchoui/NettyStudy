@@ -70,7 +70,7 @@ public class NioReceiveServer {
         serverSocket.bind(address);
         // 5、将通道注册到选择器上,并注册的IO事件为：“接收新连接”
         serverChannel.register(selector, SelectionKey.OP_ACCEPT);
-        Print.tcfo("serverChannel is linstening...");
+        Print.tcfo("serverChannel is listening...");
         // 6、轮询感兴趣的I/O就绪事件（选择键集合）
         while (selector.select() > 0) {
             // 7、获取选择键集合

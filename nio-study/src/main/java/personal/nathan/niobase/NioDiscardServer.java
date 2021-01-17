@@ -15,10 +15,8 @@ import java.util.Iterator;
 public class NioDiscardServer {
 
     public static void startServer() throws IOException {
-
         // 1、获取Selector选择器
         Selector selector = Selector.open();
-
         // 2、获取通道
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         // 3.设置为非阻塞
@@ -26,10 +24,8 @@ public class NioDiscardServer {
         // 4、绑定连接
         serverSocketChannel.bind(new InetSocketAddress(NioDemoConfig.SOCKET_SERVER_PORT));
         Logger.info("服务器启动成功");
-
         // 5、将通道注册到选择器上,并注册的IO事件为：“接收新连接”
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
-
         // 6、轮询感兴趣的I/O就绪事件（选择键集合）
         while (selector.select() > 0) {
             // 7、获取选择键集合
@@ -37,7 +33,6 @@ public class NioDiscardServer {
             while (selectedKeys.hasNext()) {
                 // 8、获取单个的选择键，并处理
                 SelectionKey selectedKey = selectedKeys.next();
-
                 // 9、判断key是具体的什么事件
                 if (selectedKey.isAcceptable()) {
                     Logger.info("服务器可接收新连接");
@@ -51,7 +46,6 @@ public class NioDiscardServer {
                     Logger.info("服务器接收到了新数据");
                     // 13、若选择键的IO事件是“可读”事件,读取数据
                     SocketChannel socketChannel = (SocketChannel) selectedKey.channel();
-
                     // 14、读取数据
                     ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
                     int length = 0;
@@ -66,7 +60,6 @@ public class NioDiscardServer {
                 selectedKeys.remove();
             }
         }
-
         // 7、关闭连接
         serverSocketChannel.close();
     }

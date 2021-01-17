@@ -12,7 +12,8 @@
         <module>netty-client</module>
         <module>netty-server</module>
         <module>nio-study</module>
-<!--        <module>netty-demos</module>-->
+        <module>netty-demo</module>
+        <!--        <module>netty-demos</module>-->
     </modules>
 
     <properties>
@@ -22,6 +23,17 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>

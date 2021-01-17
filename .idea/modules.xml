@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/instance-messager/chat-common/chat-common.iml" filepath="$PROJECT_DIR$/instance-messager/chat-common/chat-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/instance-messager/chat-server/chat-server.iml" filepath="$PROJECT_DIR$/instance-messager/chat-server/chat-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-client/netty-client.iml" filepath="$PROJECT_DIR$/netty-client/netty-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-demo/netty-demo.iml" filepath="$PROJECT_DIR$/netty-demo/netty-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-server/netty-server.iml" filepath="$PROJECT_DIR$/netty-server/netty-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-study.iml" filepath="$PROJECT_DIR$/netty-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio-study/nio-study.iml" filepath="$PROJECT_DIR$/nio-study/nio-study.iml" />
